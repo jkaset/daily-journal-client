@@ -16,6 +16,7 @@ export const EntryList = () => {
   }, []);
 
   useEffect(() => {
+    console.log(entries)
     setEntries(entries)
   }, [entries])
 
